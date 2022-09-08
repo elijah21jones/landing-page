@@ -1,3 +1,55 @@
-.flexbox-container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+}
+.nav {
     display: flex;
+    background-color: #175B26;
+    align-items: center;
+    justify-content: space-between;
+    height: 240px;
+}
+
+h1 {
+    color: #9CD07C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #9CD07C;
+}
+
+.nav-link {
+    display: flex;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: all .2s ease;
+}
+
+.nav-link a:link {
+    color: #9CD07C
+}
+
+a:visited {
+    color:cadetblue;
+}
+
+a:hover {
+    color:cornsilk;
+
+}
+
+.bold-text {
+    font-size: 48px;
+    font-weight:bolder; 
+    color: #9CD07C;
 }
