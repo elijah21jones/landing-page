@@ -7,18 +7,25 @@
 body {
     font-family: Helvetica;
 }
-.nav {
+.site-header {
     display: flex;
     background-color: #175B26;
     align-items: center;
     justify-content: space-between;
-    height: 240px;
 }
 
 h1 {
     color: #9CD07C;
     font-size: 24px;
     font-weight: 600;
+    padding: 0px 32px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #175B26;
+    width: 100%;
 }
 
 .nav-menu {
@@ -26,12 +33,14 @@ h1 {
     list-style: none;
     font-size: 18px;
     color: #9CD07C;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-link {
-    display: flex;
+    color: #9CD07C;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 30px;
     transition: all .2s ease;
 }
 
@@ -46,10 +55,4 @@ a:visited {
 a:hover {
     color:cornsilk;
 
-}
-
-.bold-text {
-    font-size: 48px;
-    font-weight:bolder; 
-    color: #9CD07C;
 }
