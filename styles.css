@@ -9,13 +9,13 @@ body {
 }
 .site-header {
     display: flex;
-    background-color: #175B26;
+    background-color: #DDF6D0;
     align-items: center;
     justify-content: space-between;
 }
 
 h1 {
-    color: #9CD07C;
+    color: #469A18;
     font-size: 24px;
     font-weight: 600;
     padding: 0px 32px;
@@ -24,7 +24,7 @@ h1 {
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #175B26;
+    background-color: #DDF6D0;
     width: 100%;
 }
 
@@ -32,27 +32,61 @@ h1 {
     display: flex;
     list-style: none;
     font-size: 18px;
-    color: #9CD07C;
+    color: #DDF6D0;
     align-items: center;
     justify-content: space-between;
 }
 
+.bold-text {
+    font-size: 48px;
+    color: #469A18;
+    font-weight: 800;
+}
+
+.subtext {
+    color: #749961;
+    font-size: 18px;
+}
+
 .nav-link {
-    color: #9CD07C;
+    color: #DDF6D0;
     text-decoration: none;
     padding: 0 30px;
     transition: all .2s ease;
 }
 
 .nav-link a:link {
-    color: #9CD07C
+    color: #469A18;
 }
 
 a:visited {
-    color:cadetblue;
+    color:rgb(136, 95, 160);
 }
 
 a:hover {
-    color:cornsilk;
+    color:rgb(136, 95, 160);
 
+}
+
+.body-two {
+    background-color: #D0EAF6C;
+}
+
+h3 {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    display: flex;
+    width:100%;
+    height:100px;
+    justify-content: center;
 }
