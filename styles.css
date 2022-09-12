@@ -45,12 +45,14 @@ h1 {
     font-weight: 800;
     margin-top: 50px;
     margin-bottom: -40px;
+    padding-left: 32px;
 }
 
 .subtext {
     color: #749961;
     font-size: 18px;
     margin-top: -40px;
+    padding-left: 32px;
 }
 
 .placeholder {
@@ -80,6 +82,7 @@ a:hover {
 
 .body-two {
     background-color: #F7F4F9;
+    height: 240px;
 }
 
 h3 {
@@ -93,6 +96,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 30px;
 
 }
 
@@ -115,11 +119,14 @@ figcaption {
     text-align: center;
     font-size: 36px;
     color: #969EFF;
-    padding: 50px;
+    padding: 70px;
+    height: 240px;
+    align-items: center;
 }
 
 .quote {
     font-size: 20px;
+    align-items: center;
 }
 
 .body-four {
@@ -128,10 +135,11 @@ figcaption {
 
 .block{
     text-align: center;
-    border: 70px solid  #FFF0C8;
-    padding: 50px;  
+    border: 40px solid  #FFF0C8;
+    padding: 20px;  
 }
 
 footer {
     background-color: #DDF6D0;
+    text-align: center;
 }
