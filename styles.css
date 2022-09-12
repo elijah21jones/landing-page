@@ -26,6 +26,7 @@ h1 {
     justify-content: space-between;
     background-color: #DDF6D0;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .nav-menu {
@@ -46,6 +47,11 @@ h1 {
 .subtext {
     color: #749961;
     font-size: 18px;
+}
+
+.placeholder {
+    padding: 70px;
+    background-color: #F5CE75;
 }
 
 .nav-link {
@@ -69,13 +75,14 @@ a:hover {
 }
 
 .body-two {
-    background-color: #D0EAF6C;
+    background-color: #F7F4F9;
 }
 
 h3 {
     text-align: center;
     font-family: Helvetica;
     font-size: 20px;
+    color: #ABABAD; 
 }
 
 .images {
@@ -89,4 +96,16 @@ h3 {
     width:100%;
     height:100px;
     justify-content: center;
+}
+
+.body-three {
+    background-color: #C8CCFF;
+}
+
+.body-four {
+    background-color: #FFF0C8;
+}
+
+footer {
+    background-color: #DDF6D0;
 }
