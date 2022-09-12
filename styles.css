@@ -12,6 +12,7 @@ body {
     background-color: #DDF6D0;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -42,11 +43,14 @@ h1 {
     font-size: 48px;
     color: #469A18;
     font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: -40px;
 }
 
 .subtext {
     color: #749961;
     font-size: 18px;
+    margin-top: -40px;
 }
 
 .placeholder {
@@ -88,7 +92,12 @@ h3 {
 .images {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
+}
+
+figcaption {
+    text-align: center;
 }
 
 .picture {
@@ -102,8 +111,25 @@ h3 {
     background-color: #C8CCFF;
 }
 
+.quote-one {
+    text-align: center;
+    font-size: 36px;
+    color: #969EFF;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 20px;
+}
+
 .body-four {
-    background-color: #FFF0C8;
+    background-color: #FFE49B;
+}
+
+.block{
+    text-align: center;
+    border: 70px solid  #FFF0C8;
+    padding: 50px;  
 }
 
 footer {
